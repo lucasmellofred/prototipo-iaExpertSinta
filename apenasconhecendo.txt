@@ -1,0 +1,70 @@
+--------------------------------------------------------------------------------
+SOBRE O SISTEMA ESPECIALISTA
+  -- Nome:    SEM NOME
+  -- Autores: 
+
+Operador de maior precedência: conjunção
+Fator de confiança mínimo para aceitação de regra: 50
+
+SOBRE OS ARQUIVOS
+  Arquivo original: C:\Users\1144004619\Downloads\apenasconhecendo.bcm
+  O sistema não possui recursos de ajuda.
+--------------------------------------------------------------------------------
+
+VARIÁVEIS
+
+  houer combustivel no carburador
+    Tipo:
+      univalorada
+  houver combustivel no tanque
+    Tipo:
+      univalorada
+  luzes acendem
+    Tipo:
+      univalorada
+  motor funciona
+    Tipo:
+      univalorada
+  motor recebe combustível
+    Tipo:
+      univalorada
+  probelma
+    Valores:
+      vela
+      bateria e cabo
+      motor de partida
+    Tipo:
+      multivalorada
+
+OBJETIVOS
+
+  probelma
+
+REGRAS
+
+  Regra 1
+    SE motor recebe combustível = Sim
+    E  motor funciona = Sim
+    ENTÃO probelma = vela CNF 100%
+
+  Regra 2
+    SE NÃO motor funciona = Sim
+    E  luzes acendem = Sim
+    ENTÃO probelma = bateria e cabo CNF 100%
+
+  Regra 3
+    SE NÃO motor funciona = Sim
+    E  luzes acendem = Sim
+    ENTÃO probelma = motor de partida CNF 100%
+
+  Regra 4
+    SE houver combustivel no tanque = Sim
+    E  houer combustivel no carburador = Sim
+    ENTÃO motor recebe combustível = Sim CNF 100%
+
+--------------------------------------------------------------------------------
+Gerado com o Expert SINTA versão 1.1b
+(c) 1997 - Universidade Federal do Ceará
+           Laboratório de Inteligência Artificial
+           LIA/UFC
+--------------------------------------------------------------------------------

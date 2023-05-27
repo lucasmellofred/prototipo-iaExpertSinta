@@ -1,0 +1,77 @@
+--------------------------------------------------------------------------------
+CÓDIGOS INTERNOS DE BASE DE CONHECIMENTO
+SOBRE O SISTEMA ESPECIALISTA
+  -- Nome:    SEM NOME
+  -- Autores: 
+
+SOBRE OS ARQUIVOS
+  Arquivo original: C:\Users\1144004619\Downloads\apenasconhecendo.bcm
+  O sistema não possui recursos de ajuda.
+--------------------------------------------------------------------------------
+
+Variáveis - CÓDIGO, NOME
+
+1, motor recebe combustível
+2, motor funciona
+3, probelma
+4, houver combustivel no tanque
+5, luzes acendem
+6, houer combustivel no carburador
+
+Variáveis - NOME, CÓDIGO
+
+houer combustivel no carburador, 6
+houver combustivel no tanque, 4
+luzes acendem, 5
+motor funciona, 2
+motor recebe combustível, 1
+probelma, 3
+
+Valores - CÓDIGO, NOME, CÓDIGO DA VARIÁVEL, POSIÇÃO
+
+1, vela, 3, 1
+2, bateria e cabo, 3, 2
+3, motor de partida, 3, 3
+
+Valores - NOME, CÓDIGO, CÓDIGO DA VARIÁVEL, POSIÇÃO
+
+bateria e cabo, 2, 3, 2
+motor de partida, 3, 3, 3
+vela, 1, 3, 1
+
+Valores - CÓDIGO DA VARIÁVEL, CÓDIGO, NOME, POSIÇÃO
+
+3, 1, vela, 1
+3, 2, bateria e cabo, 2
+3, 3, motor de partida, 3
+
+Regras - POSIÇÃO, NOME, CÓDIGO
+
+1, Regra 1, 1
+2, Regra 2, 2
+3, Regra 3, 3
+4, Regra 4, 4
+
+Regras - CÓDIGO, NOME, POSIÇÃO
+
+1, Regra 1, 1
+2, Regra 2, 2
+3, Regra 3, 3
+4, Regra 4, 4
+
+Regras - NOME, CÓDIGO, POSIÇÃO
+
+Regra 1, 1, 1
+Regra 2, 2, 2
+Regra 3, 3, 3
+Regra 4, 4, 4
+
+--------------------------------------------------------------------------------
+Gerado com o Expert SINTA versão 1.1b
+(c) 1997 - Universidade Federal do Ceará
+           Laboratório de Inteligência Artificial
+           LIA/UFC
+
+           Utilize esses códigos na programação
+           de front-ends com a Expert SINTA VCL
+--------------------------------------------------------------------------------
