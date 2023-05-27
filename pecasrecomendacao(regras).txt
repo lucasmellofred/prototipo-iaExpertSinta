@@ -1,0 +1,109 @@
+--------------------------------------------------------------------------------
+SOBRE O SISTEMA ESPECIALISTA
+  -- Nome:    SEM NOME
+  -- Autores: 
+
+Operador de maior precedência: conjunção
+Fator de confiança mínimo para aceitação de regra: 50
+
+SOBRE OS ARQUIVOS
+  Arquivo original: C:\Users\1144004619\Downloads\pecasrecomendacao.bcm
+  O sistema não possui recursos de ajuda.
+--------------------------------------------------------------------------------
+
+VARIÁVEIS
+
+  Desenvolvimento de software
+    Tipo:
+      univalorada
+  Edição de vídeo
+    Tipo:
+      univalorada
+  Jogos
+    Tipo:
+      univalorada
+  Orçamento
+    Valores:
+      Alto
+      Médio
+      Baixo
+    Tipo:
+      multivalorada
+  Recomendação
+    Valores:
+      Processador de alto desempenho
+      Processador de desempenho moderado
+      Processador de baixo custo
+      Placa de vídeo de alto desempenho
+      Placa de vídeo de desempenho moderado
+      Placa de vídeo de baixo custo
+      Processador de alto desempenho e uma quantidade maior de memória RAM
+      Processador de desempenho moderado e uma quantidade moderada de memória RAM
+      Processador de baixo custo e uma quantidade mínima de memória RAM
+    Tipo:
+      multivalorada
+  Uso geral
+    Tipo:
+      univalorada
+
+OBJETIVOS
+
+  Recomendação
+
+REGRAS
+
+  Regra 1
+    SE Jogos = Sim
+    E  Orçamento = Alto
+    ENTÃO Recomendação = Processador de alto desempenho CNF 100%
+
+  Regra 2
+    SE Jogos = Sim
+    E  Orçamento = Médio
+    ENTÃO Recomendação = Processador de desempenho moderado CNF 100%
+
+  Regra 3
+    SE Jogos = Sim
+    E  Orçamento = Baixo
+    ENTÃO Recomendação = Processador de baixo custo CNF 100%
+
+  Regra 4
+    SE Edição de vídeo = Sim
+    E  Orçamento = Alto
+    ENTÃO Recomendação = Placa de vídeo de alto desempenho CNF 100%
+
+  Regra 5
+    SE Edição de vídeo = Sim
+    E  Orçamento = Médio
+    ENTÃO Recomendação = Placa de vídeo de desempenho moderado CNF 100%
+
+  Regra 6
+    SE Edição de vídeo = Sim
+    E  Orçamento = Baixo
+    ENTÃO Recomendação = Placa de vídeo de baixo custo CNF 100%
+
+  Regra 7
+    SE Desenvolvimento de software = Sim
+    ENTÃO Recomendação = Processador de desempenho moderado CNF 100%
+
+  Regra 8
+    SE Uso geral = Sim
+    E  Orçamento = Alto
+    ENTÃO Recomendação = Processador de alto desempenho e uma quantidade maior de memória RAM CNF 100%
+
+  Regra 9
+    SE Uso geral = Sim
+    E  Orçamento = Médio
+    ENTÃO Recomendação = Processador de desempenho moderado e uma quantidade moderada de memória RAM CNF 100%
+
+  Regra 10
+    SE Uso geral = Sim
+    E  Orçamento = Baixo
+    ENTÃO Recomendação = Processador de baixo custo e uma quantidade mínima de memória RAM CNF 100%
+
+--------------------------------------------------------------------------------
+Gerado com o Expert SINTA versão 1.1b
+(c) 1997 - Universidade Federal do Ceará
+           Laboratório de Inteligência Artificial
+           LIA/UFC
+--------------------------------------------------------------------------------

@@ -1,0 +1,122 @@
+--------------------------------------------------------------------------------
+CÓDIGOS INTERNOS DE BASE DE CONHECIMENTO
+SOBRE O SISTEMA ESPECIALISTA
+  -- Nome:    SEM NOME
+  -- Autores: 
+
+SOBRE OS ARQUIVOS
+  Arquivo original: C:\Users\1144004619\Downloads\pecasrecomendacao.bcm
+  O sistema não possui recursos de ajuda.
+--------------------------------------------------------------------------------
+
+Variáveis - CÓDIGO, NOME
+
+1, Jogos
+2, Orçamento
+3, Recomendação
+4, Edição de vídeo
+5, Desenvolvimento de software
+6, Uso geral
+
+Variáveis - NOME, CÓDIGO
+
+Desenvolvimento de software, 5
+Edição de vídeo, 4
+Jogos, 1
+Orçamento, 2
+Recomendação, 3
+Uso geral, 6
+
+Valores - CÓDIGO, NOME, CÓDIGO DA VARIÁVEL, POSIÇÃO
+
+1, Processador de alto desempenho, 3, 1
+2, Processador de desempenho moderado, 3, 2
+3, Processador de baixo custo, 3, 3
+4, Placa de vídeo de alto desempenho, 3, 4
+5, Placa de vídeo de desempenho moderado, 3, 5
+6, Placa de vídeo de baixo custo, 3, 6
+7, Processador de alto desempenho e uma quantidade maior de memória RAM, 3, 7
+8, Processador de desempenho moderado e uma quantidade moderada de memória RAM, 3, 8
+9, Processador de baixo custo e uma quantidade mínima de memória RAM, 3, 9
+10, Alto, 2, 1
+11, Médio, 2, 2
+12, Baixo, 2, 3
+
+Valores - NOME, CÓDIGO, CÓDIGO DA VARIÁVEL, POSIÇÃO
+
+Alto, 10, 2, 1
+Baixo, 12, 2, 3
+Médio, 11, 2, 2
+Placa de vídeo de alto desempenho, 4, 3, 4
+Placa de vídeo de baixo custo, 6, 3, 6
+Placa de vídeo de desempenho moderado, 5, 3, 5
+Processador de alto desempenho, 1, 3, 1
+Processador de alto desempenho e uma quantidade maior de memória RAM, 7, 3, 7
+Processador de baixo custo, 3, 3, 3
+Processador de baixo custo e uma quantidade mínima de memória RAM, 9, 3, 9
+Processador de desempenho moderado, 2, 3, 2
+Processador de desempenho moderado e uma quantidade moderada de memória RAM, 8, 3, 8
+
+Valores - CÓDIGO DA VARIÁVEL, CÓDIGO, NOME, POSIÇÃO
+
+2, 10, Alto, 1
+2, 11, Médio, 2
+2, 12, Baixo, 3
+3, 1, Processador de alto desempenho, 1
+3, 2, Processador de desempenho moderado, 2
+3, 3, Processador de baixo custo, 3
+3, 4, Placa de vídeo de alto desempenho, 4
+3, 5, Placa de vídeo de desempenho moderado, 5
+3, 6, Placa de vídeo de baixo custo, 6
+3, 7, Processador de alto desempenho e uma quantidade maior de memória RAM, 7
+3, 8, Processador de desempenho moderado e uma quantidade moderada de memória RAM, 8
+3, 9, Processador de baixo custo e uma quantidade mínima de memória RAM, 9
+
+Regras - POSIÇÃO, NOME, CÓDIGO
+
+1, Regra 1, 1
+2, Regra 2, 2
+3, Regra 3, 3
+4, Regra 4, 4
+5, Regra 5, 5
+6, Regra 6, 6
+7, Regra 7, 7
+8, Regra 8, 8
+9, Regra 9, 9
+10, Regra 10, 10
+
+Regras - CÓDIGO, NOME, POSIÇÃO
+
+1, Regra 1, 1
+2, Regra 2, 2
+3, Regra 3, 3
+4, Regra 4, 4
+5, Regra 5, 5
+6, Regra 6, 6
+7, Regra 7, 7
+8, Regra 8, 8
+9, Regra 9, 9
+10, Regra 10, 10
+
+Regras - NOME, CÓDIGO, POSIÇÃO
+
+Regra 1, 1, 1
+Regra 10, 10, 10
+Regra 2, 2, 2
+Regra 3, 3, 3
+Regra 4, 4, 4
+Regra 5, 5, 5
+Regra 6, 6, 6
+Regra 7, 7, 7
+Regra 8, 8, 8
+Regra 9, 9, 9
+
+--------------------------------------------------------------------------------
+Gerado com o Expert SINTA versão 1.1b
+(c) 1997 - Universidade Federal do Ceará
+           Laboratório de Inteligência Artificial
+           LIA/UFC
+
+           Utilize esses códigos na programação
+           de front-ends com a Expert SINTA VCL
+--------------------------------------------------------------------------------
